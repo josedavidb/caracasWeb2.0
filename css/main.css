@@ -1,0 +1,263 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	
+	background-attachment: fixed;
+}
+
+header{
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	z-index: 500;
+}
+
+nav{
+	margin: 0;
+	padding: 0;
+}
+
+.menuPrincipal{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.espacioLogo{
+	width: 20%;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.espacioLogo h5{
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+
+}
+
+.espacioNav{
+	display: flex;
+	justify-content: flex-end;
+	width: 80%;
+	background: #000;
+	width: 100%;
+
+}
+.botonesMenu{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	background: #000;
+
+	
+	}
+
+.botonesMenu li{
+	margin-right: 20px;
+
+}
+
+
+.espacioSlide{
+	width: 100%;
+	height: 800px;
+}
+.botonesMenu li a{
+	color:white;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	width: 100%;
+	font-size: 20px;
+	display: block;
+
+}
+.botonesMenu li a:hover{
+	background: #000;
+	color: yellow;
+
+}
+
+/*Efectos del Menu */
+
+.headroom{
+	transition: transform .3s ease;
+}
+
+.headroom--pinned{
+	transform: translateY(0%);
+}
+
+.headroom--unpinned{
+	transform: translateY(-100%);
+}
+
+.imagenGrande1 {
+	width: 100%;
+	height: 500px;
+	background-size: 100% 500px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 120px;
+	
+}
+
+.espacioBannerRestaurant{
+	display: flex;
+	justify-content: center;
+}
+
+.bannerRestaurant{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	height: 350px;
+	box-shadow: 5px 5px 5px #999;
+
+}
+
+.infoRestaurant{
+	width: 50%;
+	height: 200px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.infoRestaurant p{
+	text-align: center;
+	color: black;
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	margin: 5px;
+}
+
+.infoRestaurant h1{
+	text-align: center;
+	color: black;
+	font-family: 'Merriweather', serif;
+}
+
+.restaurantes{
+	display: flex;
+	margin: 20px;
+	height: 400px;
+	justify-content: center ;
+	margin-top: 100px;
+	margin: 100px;
+}
+
+.Restaurante1{
+	width: 32%;
+	margin-right: 50px;
+	box-shadow: 5px 5px 5px #999;
+}
+
+.Restaurante1:hover{
+	border: #EFE700 4px solid;
+}
+.Restaurante1 p{
+	background: #fff;
+	background-size: contain;
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 5px;
+}
+
+.Restaurante2 p{
+	background: #fff;
+	background-size: contain;
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 5px;
+}
+
+.Restaurante3 p{
+	background: #fff;
+	background-size: contain;
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+
+.Restaurante2{
+	width: 32%;
+	background: #c54;
+	margin-right: 50px;
+	box-shadow: 5px 5px 5px #999;
+	margin-right: 40px;
+}
+
+.Restaurante2:hover{
+	border: #EFE700 4px solid;
+}
+
+.Restaurante3{
+	width: 32%;
+	background: #d12;
+	box-shadow: 5px 5px 5px #999;
+	margin-right: 40px;
+}
+
+.Restaurante3:hover{
+	border: #EFE700 4px solid;
+}
+
+.footerPrincipal{
+	width: 100%;
+	background: #868686;
+	margin: 0;
+
+}
+
+.footerPrincipal nav{
+	display: flex;
+
+}
+
+.terminos{
+	list-style: none;
+	color: #303032;
+}
+
+.terminos li a{
+	color: #303032;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.terminos li a:hover{
+	color: white;
+}
+
+.titulosFooter{
+	font-size: 25px;
+	color: white;
+}
+
+.contactoFooter{
+	justify-content: flex-end;
+}
+
+.siluetaCaracas{
+	width: 100%;
+	height: 100px;
+	margin:0;
+	padding: 0;
+}
