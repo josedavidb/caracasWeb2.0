@@ -24,7 +24,7 @@
 .slidesjs-pagination li a {
 	display:block;
 	padding:13.4px 20px;
-	color:#000;
+	color:#fff;
 	text-decoration:none;
 }
 
@@ -39,7 +39,7 @@
 }
  
 .slidesjs-navigation{
-	color:#000;
+	color:#fff;
 	font-size: 25px;
 	text-decoration:none;
 	display:inline-block;
@@ -135,7 +135,7 @@
 
 
 .espacioImagen3 {
-	background-image: url("imagenes/caracas3.jpg");
+	background: url("imagenes/caracas2.jpg");
 	background-size: 100% 100%;
 	height: 100%;
 	display: flex;
